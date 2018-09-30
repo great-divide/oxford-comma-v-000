@@ -14,6 +14,8 @@ def oxford_comma(array)
   elsif array.length > 3
     last = array.pop
     array.push(" and ")
-    
-  end
+    string = array.join(", ")
+    string << last
+    return string
+    end
 end
