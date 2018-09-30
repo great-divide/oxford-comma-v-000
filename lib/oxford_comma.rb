@@ -13,7 +13,7 @@ def oxford_comma(array)
     return string
   elsif array.length > 3
     last = array.pop
-    array.push(" and ")
+    array.push("and ")
     string = array.join(", ")
     string << last
     return string
